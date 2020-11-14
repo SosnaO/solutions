@@ -337,3 +337,17 @@ color: white;
 
 <div class="warning" id="inline" style="background-color: orange; color: navy;">Инлайн стили нежелательно использовать
     из-за более высокого приоритета чем у id, а также из-за сложности c поддержкой и переиспользованем кода.</div>
+
+
+    div {
+    background-color: navy !important;
+    color: white !important;
+    }
+    .warning {
+    background-color: white;
+    color: red;
+    }
+    #inline {
+    background-color: red;
+    color: white;
+    }
